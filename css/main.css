@@ -1,0 +1,186 @@
+﻿body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	background-color: #555E67;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.175em;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 36px;
+	display: inline;
+	border-bottom: 2px solid #fff;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 96px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 240px	
+}
+
+.about {
+	margin-top: 240px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto; /*позиционированние по центру*/
+}
+
+
+
+header a {
+	color: #fff;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+	display: inline;
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 150px;
+	font-weight: 100;
+	font-size: 18px;
+	letter-spacing: 0.17em;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+	padding-left: 185px;
+}
+
+
+.offer h1{
+	display: flex;
+	justify-content: center;
+	margin-top: 138px;
+	font-size: 48px;
+
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 56px;
+}
+
+.more h2{
+	display: flex;
+	justify-content: center;
+	margin-top: 144px;
+	font-weight: 100;
+	font-size: 29px;
+	letter-spacing: 0.16em;	
+}
+
+.array {
+	display: flex;
+	justify-content: center;
+	margin-top: 32px;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 280px;
+}
+
+.description h4{
+	padding-right: 360px;
+}
+
+.skills h5{
+	display: flex;
+	justify-content: center;
+}
+
+.describe {
+	display: flex;
+	justify-content: space-between;
+}
+
+.describe h4{
+	margin-top: 150px;
+	text-align:center;
+}
+
+.dop h4{
+	display: flex;
+	justify-content: center;
+	margin-top: 105px;
+}
+
+footer{
+	padding-top: 240px
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts h4{
+	margin-top: 150px;
+	text-align:center;
+	line-height: 2em;
+}
+
+.LGTU {
+	display: flex;
+	justify-content: center;
+	margin-top: 67px;
+	margin-bottom: 156px;
+}
