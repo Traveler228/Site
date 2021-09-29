@@ -124,7 +124,7 @@ p {
 	
 	display: flex;
 	justify-content: center;
-	margin-top: -350px;
+	margin-top: -330px;
 }
 
 .more {
@@ -133,7 +133,7 @@ p {
 	font-size: 29px;
 	letter-spacing: 0.16em;
 	font-weight: 300;
-	margin-top: -220px;
+	margin-top: -230px;
 }
 
 .btn {
@@ -141,6 +141,11 @@ p {
 	border: 1px;
 	border-radius: 95px;
 	background: #646779;
+}
+
+.btn:hover {
+	background: #7E6058;
+    color: #000;
 }
 
 .array {
