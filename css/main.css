@@ -1,10 +1,12 @@
-﻿body {
+body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	color: #fff;
-	background-color: #555E67;
+	background: url('../img/background.png') no-repeat center top / cover;
+	background-color: #1B1B1B;
+
 }
 
 * {
@@ -24,29 +26,32 @@ h2 {
 
 h3 {
 	font-size: 36px;
-	display: inline;
-	border-bottom: 2px solid #fff;
+	text-transform: uppercase;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 35px;
 	font-weight: 400;
+	letter-spacing: 0.175em;
 }
 
 h5 {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-top: 96px;
+}
+
+h6 {
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.175em;
 }
 
 a {
 	text-decoration: none;
 }
 
-section {
-	padding-top: 240px	
-}
+
 
 .about {
 	margin-top: 240px	
@@ -67,18 +72,18 @@ ul, li {
 	margin: 0 auto; /*позиционированние по центру*/
 }
 
-
-
 header a {
 	color: #fff;
 }
 
 .menu {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
 }
 
 .menu li a {
-	text-decoration: none;
 	transition: all 0.3s ease;
 }
 
@@ -88,79 +93,101 @@ header a {
 }
 
 .menu li {
-	margin-right: 150px;
-	font-weight: 100;
-	font-size: 18px;
-	letter-spacing: 0.17em;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.21em;
 }
 
 .nav {
-	display: flex;
-	align-items: center;
-	padding-top: 20px;
-	padding-left: 185px;
+	padding-top: 60px;
+	padding-left: 132px;
 }
 
+.offer{
+	letter-spacing: 0.065em;
+	margin-top: 94px;
+	text-align: right;
+}
 
-.offer h1{
-	display: flex;
-	justify-content: center;
-	margin-top: 138px;
-	font-size: 48px;
+p {
+	font-size: 120px;
+}
 
+.stu {
+	font-size: 50px;
+	letter-spacing: 0.065em;
+	margin-top: -30px;
 }
 
 .logo {
+	
 	display: flex;
 	justify-content: center;
-	margin-top: 56px;
+	margin-top: -350px;
 }
 
-.more h2{
+.more {
 	display: flex;
 	justify-content: center;
-	margin-top: 144px;
-	font-weight: 100;
 	font-size: 29px;
-	letter-spacing: 0.16em;	
+	letter-spacing: 0.16em;
+	font-weight: 300;
+	margin-top: -220px;
+}
+
+.btn {
+	padding: 14px 20px;
+	border: 1px;
+	border-radius: 95px;
+	background: #646779;
 }
 
 .array {
 	display: flex;
 	justify-content: center;
-	margin-top: 32px;
+	margin-top: 25px;
 }
+
 
 .description {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin-top: 280px;
+	margin-top: 129px;
 }
 
 .description h4{
-	padding-right: 360px;
+	padding-left: 102px;
+}
+
+.fai{
+	margin-left: 432px;
 }
 
 .skills h5{
 	display: flex;
 	justify-content: center;
+	margin-top: 81px;
 }
 
-.describe {
+.describe h6{
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 67px;
+	margin-left: 700px;
+
 }
 
-.describe h4{
-	margin-top: 150px;
-	text-align:center;
-}
-
-.dop h4{
+.man {
 	display: flex;
-	justify-content: center;
-	margin-top: 105px;
+	margin-left: -150px;
+	margin-top: -400px;
+}
+
+.dop h6{
+	margin-left: 800px;
+	margin-top: -170px;
 }
 
 footer{
@@ -172,15 +199,28 @@ footer{
 	justify-content: space-between;
 }
 
-.contacts h4{
-	margin-top: 150px;
+.contacts h6{
+	margin-top: 100px;
 	text-align:center;
 	line-height: 2em;
 }
 
 .LGTU {
 	display: flex;
-	justify-content: center;
-	margin-top: 67px;
-	margin-bottom: 156px;
+	justify-content: space-between;
+	margin-top: -20px;
 }
+
+
+
+
+@media screen and (max-width: 1125px){
+	div {
+		width: 1000px;
+	}
+
+}
+
+
+
+
