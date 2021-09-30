@@ -180,14 +180,16 @@ header a {
 }
 
 .nav {
-	padding-top: 60px;
-	padding-left: 132px;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .offer{
 	letter-spacing: 0.065em;
 	margin-top: 94px;
 	text-align: right;
+	margin-right: 100px;
 }
 
 p {
@@ -266,7 +268,7 @@ p {
 
 .man {
 	display: flex;
-	margin-left: -150px;
+	margin-left: -90px;
 	margin-top: -400px;
 }
 
