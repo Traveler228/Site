@@ -288,6 +288,10 @@ footer{
 }
 
 @media screen and (max-width: 426px) {
+	.menu li {
+	font-size: 21px;
+
+	}
 	.man {
 		display: flex;
 		justify-content: center;
