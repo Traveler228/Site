@@ -71,14 +71,8 @@ ul, li {
 	width: 1200px;
 	margin: 0 auto; /*позиционированние по центру*/
 	padding: 0px 15px;
-
 }
 
-@media screen and (max-width: 1170px) {
-	.description {
-		display: none;
-	}
-}
 
 /*
 @media screen and (max-width: 1170px) {
@@ -296,4 +290,26 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	margin-top: -20px;
+}
+
+
+@media screen and (max-width: 426px) {
+	.man {
+		display: flex;
+		justify-content: center;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.dop h6{
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+		margin-top: 20px;
+
+	}
+	.describe h6{
+		margin-left: 0;
+		margin-top: 70px;
+
+	}
 }
