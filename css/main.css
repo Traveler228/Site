@@ -278,6 +278,7 @@ footer{
 .contacts {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 20px;
 }
 
 .contacts h6{
@@ -285,13 +286,6 @@ footer{
 	text-align:center;
 	line-height: 2em;
 }
-
-.LGTU {
-	display: flex;
-	justify-content: space-between;
-	margin-top: -20px;
-}
-
 
 @media screen and (max-width: 426px) {
 	.man {
