@@ -278,7 +278,7 @@ footer{
 .contacts {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .contacts h6{
