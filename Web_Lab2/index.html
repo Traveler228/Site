@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ScreenShot</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.png" alt="logotype" class="logotype">
+				<h1>Screenshot</h1>
+				<button onclick="show('block')" class="button">Войти/Зарегистрироваться</button>
+			</div>
+		</div>
+	</header>
+	<div id="gray_blur" onclick="show('none'), show_reg('none')"></div>
+	<div id="window_auth">
+		<img src="img/Close.svg" alt="close" class="close" onclick="show('none')">
+		<h2>Вход</h2>
+		<div class="Log_In">
+			
+		<form action="index.html" name="LogIn">
+	        <input type="text" placeholder="Введите логин" name="login" class="input">
+	        <input type="password" placeholder="Введите пароль" name="password" class="input">
+	        <input type="submit" value="Войти" name="autorization" class="autorization">
+	        <a href="#" onclick="show('none'), show_reg('block')">Зарегистрироваться</a>
+    	</form>
+		</div>
+	</div>
+	<div id="window_reg">
+      <img src="img/Close.svg" alt="close" class="close" onclick="show_reg('none')">
+      <h2>Регистрация</h2>
+      <div class="Reg_In">
+
+        <form action="index.html" name="Reg_In">
+          <input type="text" placeholder="Введите имя" id="name" class="input_reg">        
+          <input type="email" placeholder="Введите Email" id="email" class="input_reg">
+          <input type="password" placeholder="Введите пароль" id="pass1" class="input_reg">
+          <input type="password" placeholder="Подтвердите пароль" id="pass2" class="input_reg">
+          <input type='phone' placeholder="Введите телефон" id="phone" class="input_reg"><br />
+          <input type="radio" checked name="radio1" id="radio1" class="radio"> Мужчина 
+          <input type="radio" name="radio1" id="radio2" class="radio"> Женщина <br />
+          <a onclick="send_info()" class="registration" href="#">Зарегистрироваться</a>
+          <p><input class="checkbox" type="checkbox" id="checkbox" value=""> Соглашение на обработку персональных данных</p>
+           <a href="#" onclick="show('block'), show_reg('none')">Войти</a>
+        </form>
+      </div>
+    </div>
+
+</body>
+</html>
