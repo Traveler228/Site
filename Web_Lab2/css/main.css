@@ -51,6 +51,7 @@ header {
 
 .logotype {
 	padding-right: 17px;
+	z-index: 2;
 }
 
 .button {
